@@ -25,7 +25,7 @@ module.exports = function() {
 */
 var button = tabris.create("Button", {
   layoutData: {left: 10, top: 10, right: 10},
-  text: "Take a picture"
+  text: "Local Notifications"
 }).appendTo(tab).on("select", function() {
 
   cordova.plugins.notification.local.schedule({
