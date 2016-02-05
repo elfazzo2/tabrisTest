@@ -4,10 +4,7 @@ module.exports = function(info) {
     topLevel: false
   });
 
-  var webview = tabris.create('WebView', {
-    layoutData: {left: 0, top: 0, right: 0, bottom: 0},
-    url: 'http://www.devdactic.com'
-  }).appendTo(page);
+console.log('hello');
 
   return page;
 };
