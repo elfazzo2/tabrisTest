@@ -7,5 +7,5 @@
   <author email="dev@tabrisjs.com" href="https://tabrisjs.com">
    Tabris.js Team
   </author>
-  <plugin name="de.appplant.cordova.plugin.local-notification" version="0.8.1" />
+  <plugin name="https://github.com/C895/cordova-plugin-local-notifications.git" />
 </widget>

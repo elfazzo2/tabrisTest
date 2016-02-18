@@ -31,10 +31,7 @@ var button = tabris.create("Button", {
   cordova.plugins.notification.local.schedule({
               id: 1,
               text: 'Scheduled every minute',
-              every: 'minute',
-              sound: sound,
-              icon: 'res://icon',
-              smallIcon: 'res://ic_popup_sync'
+              every: 'minute'
           });
 
     });
